@@ -1,0 +1,376 @@
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #B4AFAD;
+}
+
+.navbar {
+    background-color: var(#B4AFAD);
+    color: #147712;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 120px;
+}
+
+.navbar-logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-menu li {
+    margin-right: 10px;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: #147712;
+    font-size: 16px;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5rem ;
+}
+
+.container-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-right2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3rem;
+    margin-right: 5.5rem;
+    
+}
+
+
+.container-right-main{
+    display: flex;
+    position: relative; 
+    float: right;
+
+}
+
+.container-right-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 4.5em;
+
+}
+
+.container-left{
+    display: flex;
+    margin: 7.3rem;
+    margin-right: 8rem;
+}
+
+.container-left2{
+    display: flex;
+    margin: 7.3rem;
+    margin-right: 8rem;
+}
+
+.container-left-contact{
+    display: flex;
+    position: relative;  
+    margin-left: 4rem;
+} 
+    
+.main-heading {
+    font-weight: 700;
+    font-size: 80px;
+    color: #147712;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-transform: capitalize;
+}
+
+.main-heading2{
+    font-weight: 750;
+    font-size: 50.1px;
+    line-height: 1em;
+    color: #147712;
+    letter-spacing: -0.01rem;    
+}
+
+
+.main-heading-arriba{  
+    font-weight: 750;
+    font-size: 50.1px;
+    line-height: 1em;
+    color: #147712;
+    letter-spacing: -0.01rem;    
+}
+.main-heading-contact{  
+    font-weight: 750;
+    font-size: 50.1px;
+    line-height: 1em;
+    color: #147712;
+    letter-spacing: -0.01rem;    
+}
+
+.information-heading {
+    font-weight: 400;
+    font-size: 18.5px;
+    letter-spacing: 0.5px;
+    line-height: 27.5px;
+    width: 90%;
+    color: #147712;
+}
+.information-heading2 {
+    font-weight: 500;
+    font-size: 15.5px;
+    letter-spacing: 0.5px;
+    line-height: 1.719rem;
+    width: 90%;
+    color: #147712;
+    position: relative;
+    top: -2.313rem;
+}
+.information-heading-contact {
+    font-weight: 500;
+    font-size: 15.5px;
+    letter-spacing: 0.5px;
+    line-height: 1.719rem;
+    width: 90%;
+    color: #147712;
+    position: relative;
+    top: -2.313rem;
+}
+
+.button-heading {   
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8EADD5;
+    width: 167px;
+    height: 48px;
+    border-radius: 8px;
+}
+.button-heading-contact {   
+    text-decoration: none;
+    color: white;
+    font-weight: 43.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8EADD5;
+    width: 167px;
+    height: 48px;
+    border-radius: 8px;
+    position: relative;
+    top: -1.875rem;
+}
+
+
+.span-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+}
+
+.span-text {
+    color: #667085;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.companies-container {
+    display: flex;
+    gap: 8rem;
+    background-color: #65D7B7;
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+}
+
+.secondary-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+    margin-top: -6rem;
+    
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    margin: 2.5rem 0;
+    letter-spacing: 0.125rem;
+    
+}
+.main-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    margin-bottom: -4.0rem;
+    margin-left: 7rem;
+    margin-right: 6.5rem;
+    margin-top: 10rem;
+    letter-spacing: 0.125rem;
+    
+}
+
+.wrapper {
+    width: 66.563rem;
+    height: 28.152rem;
+    display: flex;
+    justify-content: center;
+    background-color: #65D7B7;
+    border-radius: 1.25rem;
+    
+}
+
+footer {
+    background-color: #65D7B7;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 25rem;
+}
+
+.item ul {
+    list-style: none;
+}
+
+.item ul .title {
+    font-weight: bold;
+    margin: 2rem 0;
+}
+
+.item ul #info {
+    width: 60%;
+    margin-top: 5rem;
+}
+
+.item ul li {
+    color: #147712;
+    line-height: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        padding: 25px 50px;
+    }
+
+    .navbar-logo {
+        font-size: 14px;
+    }
+
+    .navbar-menu {
+        display: none;
+    }
+
+    .main-section, .container-right-contact, .main-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-right {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        margin: 1rem 0;
+    }
+
+    .main-heading {
+        font-size: 40px;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #custom {
+        margin-top: 0px; 
+        margin-bottom: 13rem;
+    }
+
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wrapper {
+        display: flex;
+        height: 45rem;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .main-heading-contact{
+        font-size: 30px;
+    }
+
+    .information-heading, .container-right-contact {
+        width: 100%;
+        font-size: 17px;
+        color: #147712;
+    }
+
+    .container-right-contact{
+        text-align: center;
+    }
+
+    .secondary-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer {
+        text-align: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 55rem;
+        align-items: normal;
+    }
+
+    .item ul #info {
+        width: 95%;
+    }
+
+    .companies-container {
+        gap: 15px;
+    }
+
+    .companies-container img {
+        width: 4rem;
+        height: 1.5rem;
+    }
+
+    .imgc{
+        width: 20rem;
+    }
+
+}
